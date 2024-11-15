@@ -37,4 +37,4 @@ USER $USERNAME
 WORKDIR $HOME
 
 # docker build . -f Dockerfile -t py_atcoder:latest
-# docker run --init -itd -name py_atcoder py_atcoder:latest
+# docker run --init -itd --name py_atcoder py_atcoder:latest
